@@ -1,156 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Christopher Gachuru | Data Analytical Engineer</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Christopher Gachuru | Data Analytical Engineer</title>
+  <meta name="description" content="Christopher Gachuru — Data Analytical Engineer. Automated pipelines, Power BI dashboards, Python & SQL." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-    <!-- NAVIGATION -->
-    <header>
-        <nav>
-            <h2 class="logo">Christopher</h2>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#certifications">Certifications</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- NAV -->
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <div class="brand">
+        <img src="assets/profile.jpg" alt="Christopher" class="nav-avatar">
+        <div>
+          <span class="brand-name">Christopher G. Njoroge</span>
+          <span class="brand-title">Data Analytical Engineer</span>
+        </div>
+      </div>
 
-    <!-- HOME SECTION -->
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <main>
     <section id="home" class="hero">
-        <div class="profile-photo">
-            <img src="assets/profile.jpg" alt="Christopher Gachuru">
+      <div class="hero-inner container">
+        <div class="hero-left">
+          <h1>Hello — I'm <span>Christopher G. Njoroge</span></h1>
+          <p class="lead">Data Analytical Engineer • Automation • Data Pipelines • Dashboards</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="assets/Christopher-Gachuru-CV.pdf" download>Download CV</a>
+            <a class="btn btn-ghost" href="#contact">Contact Me</a>
+          </div>
+          <div class="social">
+            <a href="https://github.com/njorogekristofa" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/christopher-gachuru-942a9216b/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
         </div>
-        <div class="content">
-            <h1>Hello, I'm <span>Christopher Gachuru Njoroge</span></h1>
-            <p>Data Analytical Engineer • Data Analyst</p>
-            <a href="assets/Christopher-Gachuru-CV.pdf" class="btn" download>Download CV</a>
+
+        <div class="hero-photo">
+          <img src="assets/profile.jpg" alt="Christopher Gachuru" />
         </div>
+      </div>
     </section>
 
-    <!-- ABOUT SECTION -->
-    <section id="about" class="section">
-        <h2>About Me</h2>
-        <p>
-            I am a passionate Data Analytical Engineer with over three years of experience designing automated data pipelines,
-            improving data quality, and developing scalable analytics solutions. I specialize in Python, SQL, Power BI, and ETL/ELT 
-            workflows. My work focuses on transforming raw datasets into reliable, high-performance data assets that drive 
-            decision-making and business innovation.
-        </p>
-    </section>
-
-    <!-- SERVICES SECTION -->
-    <section id="services" class="section light">
-        <h2>Services</h2>
-        <div class="grid">
-            <div class="card">Automated Data Pipeline Development</div>
-            <div class="card">Data Cleaning, Transformation & Modeling</div>
-            <div class="card">Python Reporting & Process Automation</div>
-            <div class="card">Dashboard Development (Power BI, Looker, Tableau)</div>
-            <div class="card">ETL/ELT Workflows (dbt, Airflow - learning)</div>
-            <div class="card">Business Insights & Performance Analytics</div>
+    <!-- ABOUT -->
+    <section id="about" class="section container card-surface">
+      <div class="section-grid">
+        <div>
+          <h2>About</h2>
+          <p>
+            I am a Data Analytical Engineer with 3+ years designing automated data pipelines, improving data quality,
+            and building analytics platforms. I work with Python, SQL, Power BI and cloud data tools to transform raw data
+            into reliable, actionable products that inform business decisions.
+          </p>
+          <p>
+            I lead analysis teams, build ETL workflows, and create dashboards and automation tools that save time and improve
+            accuracy across departments.
+          </p>
         </div>
-    </section>
 
-    <!-- SKILLS SECTION -->
-    <section id="skills" class="section">
-        <h2>Skills</h2>
-        <div class="grid">
-            <div class="card">Python</div>
-            <div class="card">SQL</div>
-            <div class="card">Power BI</div>
-            <div class="card">Tableau</div>
-            <div class="card">Looker Studio</div>
-            <div class="card">MySQL</div>
-            <div class="card">PostgreSQL</div>
-            <div class="card">Oracle</div>
-            <div class="card">dbt</div>
-            <div class="card">Airflow (learning)</div>
-            <div class="card">Snowflake</div>
-            <div class="card">BigQuery</div>
-            <div class="card">Docker (learning)</div>
-            <div class="card">Advanced Excel</div>
+        <div class="quick-stats">
+          <div class="stat">
+            <div class="stat-value">3+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">50+</div>
+            <div class="stat-label">Reports & Automations</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">10+</div>
+            <div class="stat-label">Dashboards</div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- EXPERIENCE SECTION -->
-    <section id="experience" class="section">
-        <h2>Experience</h2>
-        <ul>
-
-            <li>
-                <b>Data Analyst – Eezy Group (July 2022 – Present)</b><br>
-                Head of the Analysis Department. Performed exploratory data analysis, automated data pipelines, improved data
-                accessibility, enhanced data governance, built dashboards, managed reporting platforms, and provided actionable
-                business insights across departments.
-            </li>
-            <br>
-
-            <li>
-                <b>Sales Coordinator & Analyst – Platinum Credit (Feb 2021 – Jun 2022)</b><br>
-                Automated sales reports using Python and Excel macros, supported sales operations, managed activations,
-                resolved sales conflicts, and improved sales performance reporting.
-            </li>
-            <br>
-
-            <li>
-                <b>Tele Sales Agent – Platinum Credit (Mar 2020 – Feb 2021)</b><br>
-                Managed inbound/outbound communication, built client portfolios, handled customer experience,
-                and generated performance reports.
-            </li>
-            <br>
-
-            <li>
-                <b>IT Intern & Data Entry Clerk – Eureka Nuts Ltd (Apr 2019 – Oct 2019)</b><br>
-                Performed data entry, computer troubleshooting, system installation, scorecard generation, and supported
-                food safety management system implementation.
-            </li>
-
-        </ul>
-    </section>
-
-    <!-- PORTFOLIO SECTION -->
-    <section id="portfolio" class="section light">
-        <h2>Portfolio</h2>
-        <div class="grid portfolio-grid">
-            <a href="https://github.com/njorogekristofa/de_installation_lists_daily" class="card">De-Installation Automation</a>
-            <a href="https://github.com/njorogekristofa/imprest-automation" class="card">Imprest Automation Pipeline</a>
-            <a href="https://github.com/njorogekristofa" class="card">Python Analytics Scripts</a>
-            <a href="#" class="card">Power BI & Looker Dashboards</a>
+    <!-- SERVICES (grouped) -->
+    <section id="services" class="section container">
+      <h2>Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Data Engineering</h3>
+          <p>Automated ETL/ELT pipelines, data modeling, dbt transformations and pipeline orchestration.</p>
         </div>
+
+        <div class="service-card">
+          <h3>Analytics & Insights</h3>
+          <p>Exploratory analysis, KPI definition, performance monitoring and actionable recommendations.</p>
+        </div>
+
+        <div class="service-card">
+          <h3>Automation & Scripting</h3>
+          <p>Python automation, scheduled reporting, Excel macros replacement, and process integration.</p>
+        </div>
+
+        <div class="service-card">
+          <h3>Dashboards & Visualization</h3>
+          <p>Power BI, Looker Studio and Tableau dashboards for executive and operational reporting.</p>
+        </div>
+
+        <div class="service-card">
+          <h3>Data Quality & Governance</h3>
+          <p>Data validation, lineage best practices and governance processes to improve reliability.</p>
+        </div>
+
+        <div class="service-card">
+          <h3>Cloud & Warehousing</h3>
+          <p>Support with BigQuery, Snowflake and introductory AWS data services.</p>
+        </div>
+      </div>
     </section>
 
-    <!-- CERTIFICATIONS -->
-    <section id="certifications" class="section">
-        <h2>Certifications</h2>
-        <ul>
-            <li>Databases and SQL for Data Science – Coursera</li>
-            <li>Data Engineering Essentials – Coursera</li>
-            <li>IBM Data Analyst Professional Certificate (Ongoing)</li>
-        </ul>
+    <!-- SKILLS (subdivided) -->
+    <section id="skills" class="section container card-surface">
+      <h2>Skills</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <h4>Programming</h4>
+          <ul>
+            <li>Python (pandas, numpy)</li>
+            <li>SQL (Postgres, MySQL, Oracle)</li>
+            <li>Shell scripting</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h4>BI & Visualization</h4>
+          <ul>
+            <li>Power BI</li>
+            <li>Tableau</li>
+            <li>Looker Studio</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h4>Databases & Warehouses</h4>
+          <ul>
+            <li>PostgreSQL</li>
+            <li>MySQL</li>
+            <li>Oracle</li>
+            <li>BigQuery, Snowflake (familiar)</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h4>ETL / Data Engineering</h4>
+          <ul>
+            <li>dbt</li>
+            <li>Airflow (learning)</li>
+            <li>Data modeling & pipelines</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h4>Tools & DevOps</h4>
+          <ul>
+            <li>Git & GitHub</li>
+            <li>Docker (learning)</li>
+            <li>Advanced Excel (macros)</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h4>Soft Skills</h4>
+          <ul>
+            <li>Leadership & Team Management</li>
+            <li>Problem Solving</li>
+            <li>Presentation & Communication</li>
+          </ul>
+        </div>
+
+      </div>
     </section>
 
-    <!-- CONTACT SECTION -->
-    <section id="contact" class="section">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:njorogekristofa@gmail.com">njorogekristofa@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/christopher-gachuru-942a9216b/" target="_blank">Visit Profile</a></p>
-        <p>GitHub: <a href="https://github.com/njorogekristofa" target="_blank">My Projects</a></p>
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section container">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">Jul 2022 – Present</div>
+          <div class="timeline-content">
+            <h4>Data Analyst — Eezy Group</h4>
+            <p>Head of Analysis. Built automated pipelines, dashboards, improved governance and provided business insights to stakeholders.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">Feb 2021 – Jun 2022</div>
+          <div class="timeline-content">
+            <h4>Sales Coordinator & Analyst — Platinum Credit</h4>
+            <p>Automated sales reporting, supported sales ops and improved reporting efficiency via Python and Excel automation.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">Mar 2020 – Feb 2021</div>
+          <div class="timeline-content">
+            <h4>Tele Sales Agent — Platinum Credit</h4>
+            <p>Client communication and reporting; supported branch-level operations.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">Apr 2019 – Oct 2019</div>
+          <div class="timeline-content">
+            <h4>IT Intern & Data Entry — Eureka Nuts Ltd</h4>
+            <p>Data entry, maintenance and system support; scorecard generation and food-safety system support.</p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- FOOTER -->
-    <footer>
-        <p>© 2025 Christopher Gachuru Njoroge | Powered by GitHub Pages</p>
-    </footer>
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section container card-surface">
+      <h2>Portfolio</h2>
+      <div class="portfolio-grid">
+        <a class="portfolio-card" href="https://github.com/njorogekristofa/de_installation_lists_daily" target="_blank">De-Installation Report Automation</a>
+        <a class="portfolio-card" href="https://github.com/njorogekristofa/imprest-automation" target="_blank">Imprest Automation Pipeline</a>
+        <a class="portfolio-card" href="https://github.com/njorogekristofa" target="_blank">Python Analytics Scripts</a>
+        <a class="portfolio-card" href="#" target="_blank">Power BI Dashboard Examples</a>
+      </div>
+      <p class="note">Want new projects added? push them to your GitHub and tell me — I'll style them here.</p>
+    </section>
 
+    <!-- CERTIFICATIONS (with verify links) -->
+    <section id="certifications" class="section container">
+      <h2>Certifications</h2>
+
+      <ul class="cert-list">
+        <li>
+          Databases & SQL for Data Science — Coursera
+          <a class="verify" href="https://www.credly.com/badges/9c4480c8-676c-4e39-ab38-d7e3662514c8" target="_blank" rel="noopener">Verify</a>
+        </li>
+
+        <li>
+          Data Engineering Essentials — Coursera
+          <a class="verify" href="https://www.credly.com/badges/534be0e1-ecc4-4b23-9eaf-3bb988b3c216" target="_blank" rel="noopener">Verify</a>
+        </li>
+
+        <li>
+          IBM Data Analyst Professional Certificate (Ongoing)
+          <span class="muted">— In progress</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container card-surface">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <div>
+          <p><strong>Email</strong><br><a href="mailto:njorogekristofa@gmail.com">njorogekristofa@gmail.com</a></p>
+          <p><strong>LinkedIn</strong><br><a href="https://www.linkedin.com/in/christopher-gachuru-942a9216b/" target="_blank">Visit profile</a></p>
+        </div>
+        <div>
+          <p><strong>GitHub</strong><br><a href="https://github.com/njorogekristofa" target="_blank">github.com/njorogekristofa</a></p>
+          <p><strong>Phone</strong><br>+254 726 599 624</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Christopher G. Njoroge • Built with GitHub Pages</p>
+    </div>
+  </footer>
+
+  <!-- small script for theme niceties (keeps markup simple) -->
+  <script>
+    // simple reveal on scroll
+    const revealElems = document.querySelectorAll('.card-surface, .service-card, .skill-group, .timeline-item, .portfolio-card');
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('reveal'); });
+    }, {threshold: 0.12});
+    revealElems.forEach(el => obs.observe(el));
+  </script>
 </body>
 </html>
